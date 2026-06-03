@@ -1,0 +1,50 @@
+#head2{
+    color:blue;
+    background-color: rgba(227, 0, 0, 0.886);
+    font-weight: italic;
+    font-family:'Courier New', Courier, monospace;
+    
+    
+}
+.paras{
+    color:purple;
+    background-color: red;
+}
+
+
+#division{
+    color:green;
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+#divi{
+    align-self: auto;
+    padding:20px;
+    border-radius: 1px;
+    border-color: aqua;
+    margin: 2px;
+    background-color: blueviolet;
+}
