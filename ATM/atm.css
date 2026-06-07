@@ -1,0 +1,71 @@
+/* 1. Global Page Setup */
+body {
+    background-color: #e0f7fa; /* A softer, more premium aquamarine tone */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 2. Main ATM Container Box */
+#atm {
+    width: 350px;                /* Fixed professional width */
+    padding: 30px;               /* Clean internal breathing room */
+    background-color: #ffffff;   /* Clean white card background */
+    border-radius: 16px;         /* Modern rounded corners */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    border: 1px solid #cfd8dc;   /* Subtle border instead of harsh black */
+    
+    display: flex;
+    flex-direction: column;      /* Stacks screen on top of buttons */
+    gap: 25px;                   /* Perfect spacing between screen and buttons */
+}
+
+/* 3. Screen Container & Display */
+#screen {
+    height: 120px;
+    width: 100%;                 /* Spans the full width of the ATM box */
+    background-color: #409ab8;   /* Premium deep blue ATM screen color */
+    color: #34a2ae;              /* Bright cyan text for readability */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+     /* Inner shadow for a glass effect */
+}
+
+/* 4. Button Grid Container */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+    gap: 15px;                             /* Space between rows and columns */
+}
+
+/* 5. Individual Buttons styling */
+.buttons button {
+    padding: 15px 20px;          /* Comfortable clicking area */
+    background-color: #f5f5f5;   /* Light grey background */
+    color: #37474f;              /* Deep slate text color */
+    border: 1px solid #b0bec5;   /* Clean border outline */
+    border-radius: 8px;          /* Smooth rounded corners */
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;   /* Smooth animation when hovering */
+}
+
+/* 6. Button Interactive Effects */
+.buttons button:hover {
+    background-color: #61c7a0;   /* Turns vibrant blue on hover */
+    color: white;
+    border-color: #61c7a0;
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+.buttons button:active {
+    transform: translateY(0);    /* Pushes back down when clicked */
+}
